@@ -44,4 +44,14 @@ document.addEventListener("DOMContentLoaded", function() {
   const div2_2 = document.createElement('div');
   div2_2.className = 'w-45vw h-35vh p-1vw';
 
+  const h1_2 = document.createElement('h1');
+  h1_2.textContent = 'HTML Training 3';
+
+  const p2_1 = document.createElement('p');
+  const span2_1 = document.createElement('span');
+  span2_1.className = 'color-r';
+  span2_1.textContent = ' Lorem ipsum dolor sit amet, ';
+  p2_1.appendChild(span2_1);
+  p2_1.textContent += 'consectetur adipisicing elit. Iste voluptates autem non, iure ea magnam sunt veritatis quod delectus ad deserunt sed omnis similique officia eos? Omnis in ipsum dignissimos.';
+
 });
