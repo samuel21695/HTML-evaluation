@@ -32,5 +32,9 @@ document.addEventListener("DOMContentLoaded", function() {
 
   section1.appendChild(div1_1);
   section1.appendChild(div1_2);
-  
+
+  // Create the second dynamic section
+  const section2 = document.createElement('div');
+  section2.className = 'w-90vw h-40vh bgc-D9 dl display-f align-center justify-space-around';
+
 });
