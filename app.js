@@ -25,4 +25,12 @@ document.addEventListener("DOMContentLoaded", function() {
   em1_1.className = 'fs-2rem color-g';
   em1_1.textContent = 'Lorem ipsum dolor sit amet consectetur adipisicing elit.';
 
+  // Append elements to the first section
+  div1_2.appendChild(h1_1);
+  div1_2.appendChild(p1_1);
+  div1_2.appendChild(em1_1);
+
+  section1.appendChild(div1_1);
+  section1.appendChild(div1_2);
+  
 });
