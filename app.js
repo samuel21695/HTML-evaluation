@@ -54,4 +54,12 @@ document.addEventListener("DOMContentLoaded", function() {
   p2_1.appendChild(span2_1);
   p2_1.textContent += 'consectetur adipisicing elit. Iste voluptates autem non, iure ea magnam sunt veritatis quod delectus ad deserunt sed omnis similique officia eos? Omnis in ipsum dignissimos.';
 
+  const div2_3 = document.createElement('div');
+  div2_3.className = 'w-15vw h-35vh p-1vw';
+  const span2_2 = document.createElement('span');
+  span2_2.className = 'color-r';
+  span2_2.textContent = 'Lorem ipsum dolor sit amet consectetur adipisicing elit ';
+  div2_3.appendChild(span2_2);
+  div2_3.textContent += '. Dolores reiciendis consequuntur assumenda nulla quae enim impedit itaque odit hic eum, fuga repellendus, unde porro id cumque. Nesciunt natus hic fugit!';
+
 });
