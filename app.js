@@ -37,4 +37,11 @@ document.addEventListener("DOMContentLoaded", function() {
   const section2 = document.createElement('div');
   section2.className = 'w-90vw h-40vh bgc-D9 dl display-f align-center justify-space-around';
 
+  const div2_1 = document.createElement('div');
+  div2_1.className = 'w-20vw h-35vh p-1vw';
+  div2_1.textContent = 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Necessitatibus aspernatur eius, laudantium modi fugiat quis possimus. Inventore, placeat labore. Ab sint voluptates dolore blanditiis dignissimos. Autem sunt culpa illum amet.';
+
+  const div2_2 = document.createElement('div');
+  div2_2.className = 'w-45vw h-35vh p-1vw';
+
 });
