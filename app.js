@@ -62,4 +62,15 @@ document.addEventListener("DOMContentLoaded", function() {
   div2_3.appendChild(span2_2);
   div2_3.textContent += '. Dolores reiciendis consequuntur assumenda nulla quae enim impedit itaque odit hic eum, fuga repellendus, unde porro id cumque. Nesciunt natus hic fugit!';
 
+  // Append elements to the second section
+  div2_2.appendChild(h1_2);
+  div2_2.appendChild(p2_1);
+
+  section2.appendChild(div2_1);
+  section2.appendChild(div2_2);
+  section2.appendChild(div2_3);
+
+  // Append sections to the root element
+  rootElement.appendChild(section1);
+  rootElement.appendChild(section2);
 });
